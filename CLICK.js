@@ -1,5 +1,5 @@
 function toy(num) {
-    let adr = "images/toy" + num + ".png";
+    let adr = "toy" + num + ".png";
     let table = document.querySelector("#tbl");
     let nimg = document.createElement('img');
     let box = table.getBoundingClientRect();
