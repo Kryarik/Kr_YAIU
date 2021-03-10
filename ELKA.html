@@ -1,1 +1,53 @@
-
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+ <meta charset="utf-8" />
+ <title>Yaroslav</title>
+ <style>
+  A {
+   color: #FFFFFF
+  }
+  body { background: url(bacg.jpg); }
+ </style>
+</head>
+<body onload="init()">
+ <table border="0" align="center" rules="rows" style="width:65%;">
+  <tr>
+   <td>
+    <table border="1" bgcolor="#40E0D0" cellpadding="10" style="width:100%;">
+     <tr>
+      <th>
+       <h1><font color="white" face="Arial">Разукрась Ёлку</font></h1>
+        <table border="1" align="center" bgcolor="#FFFFFF">
+         <tr>
+         <td width="500" height="500" id="tbl">
+          <img src="images/tree.png" class="dragtree">
+         </td>
+         <td width="100" height="500">
+          <img src="images/toy1+.png" onclick="toy(1)"><br>
+          <img src="images/toy2+.png" onclick="toy(2)"><br>
+          <img src="images/toy3+.png" onclick="toy(3)"><br>
+          <img src="images/toy4+.png" onclick="toy(4)"><br><br>
+          <p><input type="button" value="Имя" onclick="nam()"></p>
+         </td>
+        </tr>
+       </table>
+      </th>
+     </tr>
+    </table>
+    <table border="1" bgcolor="#40E0D0" align="center" height="60" cellpadding="2" style="width:100%;">
+     <tr>
+      <th>
+       <h3><font color="white" face="Arial">Ссылка на сайт ДВФУ</font></h3>
+       <p><font color="white" face="Arial">
+        <a href="http://dvfu.ru" target="_blank">DVFU</a>
+        <a href="index.html" target="_blank">Главная страница</a>
+       </font></p>
+      </th>
+     </tr>
+    </table>
+   </td>
+  </tr>
+ </table>
+</body>
+</html>
